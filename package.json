@@ -1,0 +1,35 @@
+{
+  "name": "lamda-api-gateway-event-parser",
+  "version": "1.0.0",
+  "description": "When using API Gateway with AWS Lamda, the HTTP data comes to the Lamda function in the form of an \"event\" object. This package helps you to parse that \"event\" object and extract the data from it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotch-bright/lamda-api-gateway-event-parser.git"
+  },
+  "keywords": [
+    "aws lamda",
+    "lamda",
+    "api gateway",
+    "http parser",
+    "multipart",
+    "form-data",
+    "x-www-form-urlencoded",
+    "xml",
+    "json"
+  ],
+  "author": "Khoj Badami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotch-bright/lamda-api-gateway-event-parser/issues"
+  },
+  "homepage": "https://github.com/scotch-bright/lamda-api-gateway-event-parser#readme",
+  "dependencies": {
+    "nested-prop-resolver": "^1.0.4",
+    "query-string": "^7.0.0",
+    "xml-js": "^1.6.11"
+  }
+}
