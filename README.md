@@ -57,6 +57,9 @@ params: {
 	}
 }
 ```
+
+Major credits to: https://github.com/myshenin/aws-lambda-multipart-parser for this part. But the repo is a little outdated and no longer maintained.
+
 ## Not working as expected? Check Here!
 There are 2 assumptions this package makes (if your Lambda function is not running as per these assumptions, it may not work):
 

@@ -13,6 +13,13 @@
   "keywords": [
     "aws lamda",
     "lamda",
+    "aws",
+    "multipart/form-data",
+    "formdata",
+    "get",
+    "post",
+    "file upload",
+    "http",
     "api gateway",
     "http parser",
     "multipart",
